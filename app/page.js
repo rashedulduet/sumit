@@ -1,9 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function page() {
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fuga deleniti! Placeat quis culpa amet eaque consequatur quisquam dolore? Repellendus mollitia id hic natus earum vitae reprehenderit recusandae reiciendis libero.
+      <p className='text-center font-bold'> welcome, this is our Home page</p>
+     
+      <div><Link href='/blog'>Blog</Link></div>
     </div>
   )
 }
